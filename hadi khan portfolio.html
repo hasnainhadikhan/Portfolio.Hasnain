@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+   <link href="style.css" rel="stylesheet">
+  <title>Hasnain-Portfolio</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+    background-color: rgb(2, 2, 58);
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+    overflow-y: 1px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 0, 31);
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin: 0px 25px;
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  nav ul li a:hover {
+    color: rgb(92, 92, 228);
+    font-size: 1.07rem;
+
+  }
+
+  .left {
+    font-size: x-large;
+    font-weight: bolder;
+
+  }
+
+  .left1 {
+    color: rgb(12, 233, 233);
+  }
+
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 143px 0px;
+  }
+
+  .firstsection div {
+    width: 40%;
+  }
+
+  .leftsection {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 70px 0px;
+  }
+
+  .leftsection1 {
+    color: rgb(12, 223, 223);
+  }
+
+  .mainpng {
+    width: 100%;
+    height: 97%;
+  }
+
+  .firstbutton {
+    width: 180px;
+    height: 48px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: white;
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+  }
+
+  .firstbutton:hover {
+    outline: auto;
+
+  }
+
+  .btn {
+    width: 180px;
+    height: 48px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: white;
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+    ;
+  }
+
+  .btn:hover {
+    outline: auto;
+    background: transparent;
+  }
+
+  .secondSection {
+    max-width: 80vw;
+    margin: 5%;
+  }
+
+  .hr1 {
+    height: 1.3px;
+    width: 109.8%;
+    margin: 37px 3px 10px;
+    border: 2.3px solid;
+    border-color: rgb(92, 92, 252);
+  }
+
+  .para1 {
+    margin-left: 8%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .para1:hover {
+    color: rgb(12, 230, 230);
+  }
+
+  .non {
+    margin: 12px 93px;
+    color: rgb(12, 230, 230);
+  }
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+    margin-left: 8%;
+  }
+
+  h3:hover {
+    color: rgb(12, 230, 230);
+  }
+
+  .hr2 {
+    height: 1.3px;
+    width: 100%;
+    margin: 17px 53px 12px;
+    border: 2.3px solid;
+    border-color: rgb(92, 92, 252);
+  }
+
+  .box {
+
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .vertical {
+    background-color: aliceblue;
+    width: 2px;
+    height: 63px;
+    margin-left: 8.5%;
+    margin-top: -4.4%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .image-top {
+    position: relative;
+    top: -162%;
+    left: -25px;
+    width: 60px;
+    height: 55px;
+  }
+
+  .vertical-title {
+    position: relative;
+    top: 112%;
+    left: -86px;
+    margin: 6px 43px 0px -12pxpx;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .vertical-disc {
+    position: relative;
+    top: 282%;
+    left: -262px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 230%;
+    left: 43%;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+  }
+
+  .para2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    margin: 580px 301px;
+    padding: 8px;
+    border: 3px solid rgb(93, 255, 255);
+    width: 56%;
+    height: 242px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgb(93, 255, 255);
+    color: black;
+    outline: auto;
+    outline-color: rgb(255, 255, 255);
+    outline-width: 25px;
+  }
+
+  .para2:hover {
+    outline: auto;
+    outline-color: rgb(92, 92, 228);
+    outline-width: 7px;
+    outline-style: solid;
+  }
+
+  .two {
+    margin-top: 500px;
+    margin-left: -4%;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+  }
+
+  .foam {
+    position: relative;
+    top: -290px;
+    margin-left: 312px;
+  }
+
+  .form-control {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(2, 2, 58);
+    border: 2px solid rgb(2, 2, 58);
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    border-radius: 12px;
+    outline: 2px solid white;
+  }
+
+  .form-floating {
+    margin-left: 520px;
+    margin-top: -35%;
+    height: 232px;
+
+  }
+
+  textarea {
+    text-align: center;
+  }
+
+  .ton {
+
+    width: 240px;
+    height: 50px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+    position: relative;
+    top: 80px;
+    left: 47%;
+  }
+
+  .ton:hover {
+    background-color: rgb(0, 0, 31);
+  }
+
+  .poi {
+    margin: 1150px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+
+  }
+
+  .three {
+    margin-top: 79%;
+  }
+
+  .dad {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(129, 121, 121);
+    border-radius: 12px;
+    position: relative;
+    top: 70px;
+    left: 10%;
+  }
+
+  .dad:hover {
+    border-color: rgb(1, 255, 255);
+  }
+
+  .yr {
+    margin-top: 6.4%;
+    margin-left: 12%;
+  }
+
+  .sis {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: 55%;
+  }
+
+  .sis:hover {
+    border-color: rgb(1, 233, 233);
+  }
+
+  .dr {
+    margin-top: -20%;
+    margin-left: 57%;
+  }
+
+  .mom {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(129, 121, 121);
+    border-radius: 12px;
+    position: relative;
+    top: 50px;
+    left: 10%;
+  }
+
+  .mom:hover {
+    border-color: rgb(0, 255, 255);
+  }
+
+  .tr {
+    margin-top: 60px;
+    margin-left: 12%;
+  }
+
+  footer {
+    background-color: rgb(0, 0, 31);
+    width: 78%;
+    margin-left: 10%;
+    height: 300px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+  }
+
+  footer li {
+    list-style: none;
+    margin: 15px;
+    position: relative;
+    top: 9%;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 6%;
+  }
+
+  footer li a {
+    color: rgb(115, 115, 186);
+    text-decoration: none;
+  }
+
+  h3 {
+    position: relative;
+    top: 10%;
+    left: -2%;
+    font-size: 28px;
+  }
+
+  h4 {
+    margin-top: -83px;
+    margin-left: 6%;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+
+  h4:hover {
+    color: rgb(1, 255, 255);
+  }
+
+  .our {
+    position: relative;
+    top: -100px;
+    left: 170px;
+    color: rgb(115, 115, 186);
+    ;
+  }
+
+  .ss {
+    position: absolute;
+    top: 499%;
+    left: 60%;
+  }
+
+  .ss:hover {
+    color: rgb(1, 233, 233);
+  }
+
+  .sr {
+    font-size: small;
+    position: absolute;
+    top: 517%;
+    left: 54%;
+  }
+
+  .last {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -80px;
+  }
+
+  .last:hover {
+    color: rgb(1, 233, 233);
+  }
+</style>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="left">Mohammad <span class="left1"> Hasnain Hadi </span>.</div>
+      <div class="right">
+        <ul>
+          <li> <a href="home.html">Home</a></li>
+          <li><a href="About.html"> About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact me.</a></li>
+          <li><a href="proect.html">Projects<a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span class="leftsection1">Hasnain Hadi </span>, I am passionate Web Developer about creating
+        dynamic and user-friendly websites. My portfolio showcases a variety of projects that highlight my expertise in
+        front-end development, including responsive design and custom web applications.
+        <br><br>
+        <pre><button class="firstbutton">Hire Me</button> <button class="btn">Contact</button></pre>
+      </div>
+      <div class="rigthsection">
+        <img class="mainpng" src="file:///C:/Users/CC/OneDrive/Portfolio-Website/lol.png" alt="main">
+      </div>
+    </section>
+
+    <section class="secondSection">
+
+      <hr class="hr1"><br>
+      <h2 class="non">ABOUT...</h2>
+      <h3>What i have done so far is here...</h3>
+      <h2 class="para1">Work Experience</h2>
+      <br><br><br><br><br>
+      <hr class="hr2">
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="htnl.png" alt="html">
+          <div class="vertical-title">
+            HTML5 Developer(2023-2024)
+          </div>
+          <div class="vertical-disc">
+            <pre>Lorem ipsum dolor, sit amet 
+consectetur adipisicing el
+Porro,sit deleniti asperna
+adipisci provident,laborum
+laboreat fugiat voluptatum 
+minus e quia commodi sapie
+quibusdam facere,evenietil.  </pre>
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="css.png" alt="css">
+          <div class="vertical-title">
+            CSS3 Developer(2023-2024)
+          </div>
+          <div class="vertical-disc">
+            <pre>  Lorem ipsum dolor, sit amet 
+  consectetur adipisicing el
+  Porro,sit deleniti asperna
+  adipisci provident,laborum
+  labore at fugiat voluptatu
+  minus e  quia commodi sapi 
+  quibusdam facere,evenieti.  </pre>
+          </div>
+        </div>
+        <div class="vertical">
+
+          <img class="image-top" src="java p.png" alt="java">
+          <div class="vertical-title">
+            Javascripte Developer(2023-2024)
+          </div>
+          <div class="vertical-disc">
+            <pre>   Lorem ipsum dolor, sit amet 
+   consectetur adipisicing eli
+   Porro,sit deleniti aspernat 
+   adipisci  provident,laborum 
+   labore at fugiat voluptatum  
+   minus e quia commodi sapien 
+   quibusdam facere, evenieti. </pre>
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="bootstrap logo.png" alt="">
+          <div class="vertical-title">
+            BOOTSTRAP5<br>(2023-2024)
+          </div>
+          <div class="vertical-disc">
+            <pre>     Lorem ipsum dolor, sit amet 
+     consectetur adipisicing eli
+     Porro,sit deleniti aspernat 
+     adipisci  provident,laborum 
+     labore at fugiat voluptatum 
+     minus e quia commodi sapien 
+     quibusdam facere, evenieti. </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="thirdSection">
+      <div>
+        <h1>Services</h1>
+        <h2 class="para2"> Web developer services encompass a range of activities related to the creation,<br>
+          maintenance, and optimization of websites. Some common services offered by <br>
+          web developers include website design and development, e-commerce dev ,<br>
+          development, website maintenance, (SEO),website hosting and domain <br>
+          registration, mobile app development.and performance monitoring. <br>
+          These services are designed to help businesses and individuals establish<br>
+          a strong online presence, attract and engage users, and achieve their <br>
+          digital goals.</h2>
+      </div>
+    </section>
+    <section class="fourthSection">
+      <h1 class="two">Contact Me</h1>
+      <div class="foam">
+        <div class="row g-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="   .   Full Name" aria-label="First name">
+          </div>
+          <br><br>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="  .   Email" aria-label="Last name">
+          </div>
+          <br><br>
+          <div class="col">
+            <input type="number" class="form-control" placeholder="  .  Phone Number" aria-label="Last name">
+          </div>
+          <br> <br>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="   .    Subject" aria-label="Last name">
+          </div>
+          <br>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder=" . Your Message" id="floatingTextarea2"
+              style="height: 253px"></textarea>
+            <label for="floatingTextarea2"></label>
+          </div>
+          <button class="ton">Send Message</button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="fiveSection">
+      <h1 class="three">Projects</h1>
+
+      <div class="pro">
+        <img class="dad" src="https://www.bing.com/images/blob?bcid=RM80Y2IoPAAHqxcxoNWLuD9SqbotqVTdP1w" alt="one">
+        <p class="yr">SpotFinder Website using Html,Css ..</p>
+        <img class="sis" src="file:///C:/Users/CC/OneDrive/Portfolio-Website/scoliter.jpeg" alt="two">
+        <p class="dr">Scoliter Website using Html,Css ..</p>
+        <img class="mom" src="file:///C:/Users/CC/OneDrive/Portfolio-Website/petvet.jpeg " alt="three">
+        <p class="tr">Petvet Website using Html,Css..</p>
+      </div>
+
+    </section>
+  </main>
+  <br><br><br><br>
+  <footer>
+    <h3>LINKS </h3>
+    <li> <a href="">Home</a></li>
+    <li><a href=""> About</a></li>
+    <li><a href="">Services</a></li>
+    <li><a href="">Contact me.</a></li>
+    <div class="our">
+      <h4>Our Services</h4>
+      <li>Web Design</li>
+      <li>Web Development</li>
+      <li>Marketing</li>
+      <li>Graphic Design</li>
+    </div>
+    <h2 class="ss">Hadi`s Portfolio</h2>
+    <h4 class="sr">Lorem ipsum, dolor sit amet consectetur adipisic<br>
+      elit.Deserunt dolorem doloremque totam iusto pr <br>
+      perspiciatis dolor.Magnam, atque necessitatibus <br>
+      alias pariatur dolorum provident corrupti,impedit <br>
+      maxime debitis sit modi?</h4>
+    <h2 class="last"> @ All Right Reversed Terms of Use
+      and Privacy Policy</h2>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

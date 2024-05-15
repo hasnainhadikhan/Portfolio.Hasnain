@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+    background-color: rgb(2, 2, 58);
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+    overflow-y: 1px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 0, 31);
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin: 0px 25px;
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  nav ul li a:hover {
+    color: rgb(92, 92, 228);
+    font-size: 1.07rem;
+
+  }
+
+  .left {
+    font-size: x-large;
+    font-weight: bolder;
+
+  }
+
+  .left1 {
+    color: rgb(12, 233, 233);
+  }
+
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 143px 0px;
+  }
+
+  .firstsection div {
+    width: 40%;
+  }
+
+  .leftsection {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 70px 0px;
+  }
+
+  .leftsection1 {
+    color: rgb(12, 223, 223);
+  }
+
+  .mainpng {
+    width: 100%;
+    height: 97%;
+  }
+
+  .firstbutton {
+    width: 180px;
+    height: 48px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: white;
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+  }
+
+  .firstbutton:hover {
+    outline: auto;
+
+  }
+
+  .btn {
+    width: 180px;
+    height: 48px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: white;
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+    ;
+  }
+
+  .btn:hover {
+    outline: auto;
+    background: transparent;
+  }
+
+  .secondSection {
+    max-width: 80vw;
+    margin: 5%;
+  }
+
+  .hr1 {
+    height: 1.3px;
+    width: 109.8%;
+    margin: 37px 3px 10px;
+    border: 2.3px solid;
+    border-color: rgb(92, 92, 252);
+  }
+
+  .para1 {
+    margin-left: 8%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .para1:hover {
+    color: rgb(12, 230, 230);
+  }
+
+  .non {
+    margin: 12px 93px;
+    color: rgb(12, 230, 230);
+  }
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+    margin-left: 8%;
+  }
+
+  h3:hover {
+    color: rgb(12, 230, 230);
+  }
+
+  .hr2 {
+    height: 1.3px;
+    width: 100%;
+    margin: 17px 53px 12px;
+    border: 2.3px solid;
+    border-color: rgb(92, 92, 252);
+  }
+
+  .box {
+
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .vertical {
+    background-color: aliceblue;
+    width: 2px;
+    height: 63px;
+    margin-left: 8.5%;
+    margin-top: -4.4%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .image-top {
+    position: relative;
+    top: -162%;
+    left: -25px;
+    width: 60px;
+    height: 55px;
+  }
+
+  .vertical-title {
+    position: relative;
+    top: 112%;
+    left: -86px;
+    margin: 6px 43px 0px -12pxpx;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .vertical-disc {
+    position: relative;
+    top: 282%;
+    left: -262px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 230%;
+    left: 43%;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+  }
+
+  .para2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    margin: 580px 301px;
+    padding: 8px;
+    border: 3px solid rgb(93, 255, 255);
+    width: 56%;
+    height: 242px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: rgb(93, 255, 255);
+    color: black;
+    outline: auto;
+    outline-color: rgb(255, 255, 255);
+    outline-width: 25px;
+  }
+
+  .para2:hover {
+    outline: auto;
+    outline-color: rgb(92, 92, 228);
+    outline-width: 7px;
+    outline-style: solid;
+  }
+
+  .two {
+    margin-top: 500px;
+    margin-left: -4%;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+  }
+
+  .foam {
+    position: relative;
+    top: -290px;
+    margin-left: 312px;
+  }
+
+  .form-control {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(2, 2, 58);
+    border: 2px solid rgb(2, 2, 58);
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+    border-radius: 12px;
+    outline: 2px solid white;
+  }
+
+  .form-floating {
+    margin-left: 520px;
+    margin-top: -35%;
+    height: 232px;
+
+  }
+
+  textarea {
+    text-align: center;
+  }
+
+  .ton {
+
+    width: 240px;
+    height: 50px;
+    background-color: rgb(115, 115, 185);
+    border-color: rgb(115, 115, 186);
+    border-radius: 10px;
+    border: 12px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: "Mochiy Pop P One", sans-serif;
+    position: relative;
+    top: 80px;
+    left: 47%;
+  }
+
+  .ton:hover {
+    background-color: rgb(0, 0, 31);
+  }
+
+  .poi {
+    margin: 1150px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+
+  }
+
+  .three {
+    margin-top: 79%;
+  }
+
+  .dad {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(129, 121, 121);
+    border-radius: 12px;
+    position: relative;
+    top: 70px;
+    left: 10%;
+  }
+
+  .dad:hover {
+    border-color: rgb(1, 255, 255);
+  }
+
+  .yr {
+    margin-top: 6.4%;
+    margin-left: 12%;
+  }
+
+  .sis {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: 55%;
+  }
+
+  .sis:hover {
+    border-color: rgb(1, 233, 233);
+  }
+
+  .dr {
+    margin-top: -20%;
+    margin-left: 57%;
+  }
+
+  .mom {
+    width: 500px;
+    height: 250px;
+    border: 4px solid rgb(129, 121, 121);
+    border-radius: 12px;
+    position: relative;
+    top: 50px;
+    left: 10%;
+  }
+
+  .mom:hover {
+    border-color: rgb(0, 255, 255);
+  }
+
+  .tr {
+    margin-top: 60px;
+    margin-left: 12%;
+  }
+
+  footer {
+    background-color: rgb(0, 0, 31);
+    width: 78%;
+    margin-left: 10%;
+    height: 300px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+  }
+
+  footer li {
+    list-style: none;
+    margin: 15px;
+    position: relative;
+    top: 9%;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 6%;
+  }
+
+  footer li a {
+    color: rgb(115, 115, 186);
+    text-decoration: none;
+  }
+
+  h3 {
+    position: relative;
+    top: 10%;
+    left: -2%;
+    font-size: 28px;
+  }
+
+  h4 {
+    margin-top: -83px;
+    margin-left: 6%;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+
+  h4:hover {
+    color: rgb(1, 255, 255);
+  }
+
+  .our {
+    position: relative;
+    top: -100px;
+    left: 170px;
+    color: rgb(115, 115, 186);
+    ;
+  }
+
+  .ss {
+    position: absolute;
+    top: 499%;
+    left: 60%;
+  }
+
+  .ss:hover {
+    color: rgb(1, 233, 233);
+  }
+
+  .sr {
+    font-size: small;
+    position: absolute;
+    top: 517%;
+    left: 54%;
+  }
+
+  .last {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -80px;
+  }
+
+  .last:hover {
+    color: rgb(1, 233, 233);
+  }
